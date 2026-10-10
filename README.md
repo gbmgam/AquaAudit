@@ -1,8 +1,8 @@
 # AquaAudit — Browser-Based Silent Water Loss Detection
 
 AquaAudit is a responsive, single-page web application designed for hostels, paying guest accommodations (PGs), apartment associations, and residential societies. It detects silent water leaks (such as toilet cistern leaks, overhead tank overflow, and underground pipe seepage) using only two manually logged meter readings per day:
-- **11:00 PM (`r_23`)**
-- **5:00 AM (`r_05`)**
+- **11:00 PM **
+- **5:00 AM**
 
 All calculations, simulations, leak detection, validations, and robustness tests execute locally inside the browser in plain, deterministic TypeScript. No external APIs, LLMs, or backend servers are used.
 
